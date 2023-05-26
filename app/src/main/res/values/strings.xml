@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QUIZAPP</string>
+    <string-array name="options">
+        <item>Hard</item>
+        <item>Easy</item>
+        <item>Medium</item>
+    </string-array>
+    <string-array name="spinner_options">
+      <item>10hardcoded+10API</item>
+    </string-array>
+</resources>

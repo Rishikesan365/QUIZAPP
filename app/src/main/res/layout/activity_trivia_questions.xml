@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TriviaQuestionsActivity"
+    android:fillViewport="true"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:id="@+id/disp_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="questiosn go here"
+            android:textColor="@color/black"
+            android:textSize="20sp">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <ProgressBar
+                android:id="@+id/probress_bar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="13"
+                android:minHeight="50dp"
+                android:progress="0"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:indeterminate="false"
+                >
+
+
+            </ProgressBar>
+
+
+            <TextView
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:text="0/13"
+                android:textColor="@color/black">
+
+            </TextView>
+        </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/opt1"
+    android:gravity="center"
+    android:padding="10sp"
+    android:textSize="20sp"
+    android:text="opt"
+    android:textColor="@color/black">
+
+</TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/opt2"
+            android:gravity="center"
+            android:padding="10sp"
+            android:textSize="20sp"
+            android:text="opt"
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/opt3"
+            android:gravity="center"
+            android:padding="10sp"
+            android:textSize="20sp"
+            android:text="opt"
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/opt4"
+            android:gravity="center"
+            android:padding="10sp"
+            android:textSize="20sp"
+            android:text="opt"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#000026"
+
+            android:text="OK"
+            android:textColor="@color/white">
+
+        </Button>
+
+
+
+        
+    </LinearLayout>
+
+</ScrollView>
+
